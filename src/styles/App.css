@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px;
+}
+
+.search-container input {
+  width: 250px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-container button {
+  padding: 12px 20px;
+  border: none;
+  background: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.weather-card {
+  width: 350px;
+  margin: auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
