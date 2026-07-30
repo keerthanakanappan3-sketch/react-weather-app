@@ -40,3 +40,44 @@ h1 {
   border-radius: 12px;
   text-align: center;
 }
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ddd;
+  border-top: 6px solid #4da3ff;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  margin:40px auto;
+}
+
+@keyframes spin{
+  to{
+    transform:rotate(360deg);
+  }
+}
+.clear{
+  background:#4da3ff;
+}
+
+.clouds{
+  background:#4b5563;
+}
+
+.rain{
+  background:#1e3a8a;
+}
+.forecast-container{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.forecast-card{
+    background:#1e293b;
+    width:120px;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+}
